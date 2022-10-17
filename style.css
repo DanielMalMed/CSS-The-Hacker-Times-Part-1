@@ -88,5 +88,9 @@ footer {
 }
 #footie {
     border-left: 1px solid white;
-
+    padding:1em;
+}
+.lis:hover {
+    cursor: pointer;
+    color: blue;
 }
