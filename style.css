@@ -67,3 +67,26 @@ h5 {
 main img {
     width: 100%;
 }
+#catvsdog {
+    height: 212px;
+}
+#iguana {
+    height: 212px;
+}
+footer {
+    margin:auto;
+    border-top: 2px solid gray;
+    width:700px;
+    background-color:rgb(212, 212, 212);
+    display:flex;
+    gap: 2rem;
+    text-align: left;
+}
+.footie {
+    width:300px;
+    padding: 1em;
+}
+#footie {
+    border-left: 1px solid white;
+
+}
