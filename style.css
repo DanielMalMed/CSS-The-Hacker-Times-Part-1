@@ -1,1 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap);
+
+.newspaper-container {
+    width: 700px ;
+    border-radius: 1%;
+    box-shadow: 5px 10px #ddd;
+    padding: 2em;
+    border-top-style: ridge;
+    border-left-style: ridge;
+    margin: auto;
+    background-color: white;
+}
+.date {
+    text-align: left;
+}
+header {
+    text-align: center;
+    font-size: 22px;
+    font-family: "Abril Fatface";
+
+}
+
+body {
+    font-family:  'Source Sans Pro';
+    background-color: #eee;
+}
+p {
+    font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+ul {
+    list-style: none;
+    margin-left:  -45px; 
+    cursor: pointer;
+}
+li {
+    display: inline-block;
+    padding: 0.5em;
+}
+a { 
+    text-decoration:none;
+    color:#777;
+}
+a:hover{
+    color:blue;
+}
+nav {
+    border-top: 1px ridge #eee;
+    border-bottom: 1px ridge #eee;
+}
+.more-articles {
+    font-family: Roboto Slab;
+    border-top: 1px ridge #eee;
+    text-align: left;
+    display: flex;
+    gap: 2rem;
+}
+
+.more-articles img {
+    width: 100%;
+}
+main {
+    text-decoration: #dd3232;
+}
+h5 {
+    color:#dd3232;
+}
+main img {
+    width: 100%;
+}
