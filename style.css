@@ -31,6 +31,8 @@ ul {
     list-style: none;
     margin-left:  -45px; 
     cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 li {
     display: inline-block;
@@ -44,8 +46,12 @@ a:hover{
     color:blue;
 }
 nav {
+    background-color: white;
     border-top: 1px ridge #eee;
     border-bottom: 1px ridge #eee;
+    position: sticky;
+    top:0em;
+
 }
 .more-articles {
     font-family: Roboto Slab;
